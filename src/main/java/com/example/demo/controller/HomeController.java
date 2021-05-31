@@ -8,6 +8,6 @@ public class HomeController {
 @GetMapping
 public String showdata()
 {
-return hello;	
+return "hello";	
 }
 }
