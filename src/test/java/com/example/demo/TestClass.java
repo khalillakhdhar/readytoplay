@@ -1,19 +1,13 @@
 package com.example.demo;
-
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class ReadytoplayApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
+public class TestClass {
 @Test
-void testpaire()
+public void mytest()
 {
-assertTrue(0<3);
+assertTrue(0>4);	
 }
 }
