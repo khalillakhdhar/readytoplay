@@ -8,6 +8,6 @@ public class TestClass {
 @Test
 public void mytest()
 {
-assertTrue(0<4);	
+assertTrue(0>4);	
 }
 }
